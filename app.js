@@ -10,5 +10,6 @@ app.use(express.json());
 const tarefaRoutes = require('./routes/tarefaRoutes');
 app.use('/', tarefaRoutes);
 
-app.listen(3000, () => 
-    console.log('Servidor rodando na porta 3000'));
+app.listen(3000, () => {
+    console.log('Servidor rodando na porta 3000')
+});

@@ -7,13 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
   },
-
-  "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^16.5.0",
-    "express": "^4.21.2",
-    "mysql2": "^3.14.1"
-  },
   
   "keywords": [
     "api",
@@ -24,6 +17,13 @@
     "cors",
     "dotenv"
   ],
+
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "mysql2": "^3.14.1"
+  },
 
   "author": "Luiz Ribeiro",
   "license": "ISC"
