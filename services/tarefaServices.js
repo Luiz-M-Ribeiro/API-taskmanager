@@ -21,7 +21,7 @@ async function atualizarQuery(id, { titulo, descricao, status, prioridade, dataE
 async function deletarQuery(id) {
     const query = 'DELETE FROM tarefas WHERE id = ?';
     const [resultado] = await db.query(query, [id]);
-    return resultado.affectedRows;    
+    return resultado.affectedRows;
 }
 
 module.exports = { listarQuery, criarQuery, atualizarQuery, deletarQuery };
